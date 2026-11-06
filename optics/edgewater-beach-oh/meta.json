@@ -1,0 +1,131 @@
+{
+ "id": "edgewater-beach-oh",
+ "generated_utc": "2026-11-06T15:13Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -9100545.35487884,
+   5083003.370373865,
+   -9097074.44407918,
+   5086474.281173524
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -81.75159,
+  41.47732,
+  -81.72041,
+  41.50068
+ ],
+ "scenes": [
+  {
+   "id": "20261101T161421_20261101T161418_T17TMG",
+   "t": "2026-11-01",
+   "clear": 0.9201254296215567
+  },
+  {
+   "id": "20261030T162419_20261030T162645_T17TMF",
+   "t": "2026-10-30",
+   "clear": 0
+  },
+  {
+   "id": "20261025T162341_20261025T162408_T17TMF",
+   "t": "2026-10-25",
+   "clear": 1
+  },
+  {
+   "id": "20261025T162341_20261025T162408_T17TMG",
+   "t": "2026-10-25",
+   "clear": 1
+  },
+  {
+   "id": "20261024T161701_20261024T162155_T17TMF",
+   "t": "2026-10-24",
+   "clear": 1
+  },
+  {
+   "id": "20261024T161701_20261024T162155_T17TMG",
+   "t": "2026-10-24",
+   "clear": 1
+  },
+  {
+   "id": "20261022T161321_20261022T161320_T17TMF",
+   "t": "2026-10-22",
+   "clear": 1
+  },
+  {
+   "id": "20261022T161321_20261022T161320_T17TMG",
+   "t": "2026-10-22",
+   "clear": 1
+  },
+  {
+   "id": "20261020T162309_20261020T163039_T17TMF",
+   "t": "2026-10-20",
+   "clear": 1
+  },
+  {
+   "id": "20261020T162309_20261020T163039_T17TMG",
+   "t": "2026-10-20",
+   "clear": 1
+  }
+ ],
+ "scene": {
+  "date": "2026-11-01",
+  "clear_frac": 0.92,
+  "id": "20261101T161421_20261101T161418_T17TMG"
+ },
+ "water": {
+  "water_px": 42065,
+  "turbidity_spm": 2.9,
+  "turbidity_class": "clear",
+  "turbidity_p90": 7.4,
+  "ndti": -0.361,
+  "algae_ndci": -0.063,
+  "algae_class": "none"
+ },
+ "cudem": null,
+ "osm": {
+  "error": "GET failed after 3 tries: https://overpass-api.de/api/interpreter (HTTP 502)"
+ },
+ "persist_dates": [
+  "2026-10-05",
+  "2026-10-07",
+  "2026-10-15",
+  "2026-10-20",
+  "2026-10-22",
+  "2026-10-24",
+  "2026-10-25",
+  "2026-11-01"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 55.0,
+  "m0": -48.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 45516,
+  "rip_channels": 17,
+  "sandbars": 27,
+  "band_segments": 77,
+  "band_rip": 22,
+  "band_bar": 14,
+  "composite_scenes_median": 32,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.481,
+   "split_half_iou_shifted": 0.245,
+   "dates_used": 8,
+   "chan_px_composite": 6613,
+   "chan_px_persistent": 4241,
+   "bar_px_composite": 6781,
+   "bar_px_persistent": 2696,
+   "structure_px_masked": 0
+  },
+  "osm_ok": false
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}

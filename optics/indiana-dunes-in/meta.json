@@ -1,0 +1,133 @@
+{
+ "id": "indiana-dunes-in",
+ "generated_utc": "2026-11-06T15:12Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -9693660.2428958,
+   5108667.785018414,
+   -9690180.049955338,
+   5112147.977958877
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -87.07963,
+  41.64982,
+  -87.04837,
+  41.67318
+ ],
+ "scenes": [
+  {
+   "id": "20261028T163401_20261028T163831_T16TDM",
+   "t": "2026-10-28",
+   "clear": 1
+  },
+  {
+   "id": "20261026T164359_20261026T164953_T16TDM",
+   "t": "2026-10-26",
+   "clear": 0.8836472385630842
+  },
+  {
+   "id": "20261023T163339_20261023T163826_T16TDM",
+   "t": "2026-10-23",
+   "clear": 0.9998805434643652
+  },
+  {
+   "id": "20261021T164331_20261021T164425_T16TDM",
+   "t": "2026-10-21",
+   "clear": 1
+  },
+  {
+   "id": "20261020T163701_20261020T163657_T16TDM",
+   "t": "2026-10-20",
+   "clear": 0.9982773110124255
+  },
+  {
+   "id": "20261018T163301_20261018T163311_T16TDM",
+   "t": "2026-10-18",
+   "clear": 0.9998805434643652
+  },
+  {
+   "id": "20261013T164701_20261013T164701_T16TDM",
+   "t": "2026-10-13",
+   "clear": 0.5254180454815047
+  },
+  {
+   "id": "20261013T163229_20261013T163225_T16TDM",
+   "t": "2026-10-13",
+   "clear": 0.3917860009514614
+  },
+  {
+   "id": "20261011T164221_20261011T164838_T16TDM",
+   "t": "2026-10-11",
+   "clear": 1
+  },
+  {
+   "id": "20261008T163201_20261008T163310_T16TDM",
+   "t": "2026-10-08",
+   "clear": 1
+  }
+ ],
+ "scene": {
+  "date": "2026-10-28",
+  "clear_frac": 1,
+  "id": "20261028T163401_20261028T163831_T16TDM"
+ },
+ "water": {
+  "water_px": 52714,
+  "turbidity_spm": 5.0,
+  "turbidity_class": "slightly murky",
+  "turbidity_p90": 11.7,
+  "ndti": -0.599,
+  "algae_ndci": -0.261,
+  "algae_class": "none"
+ },
+ "cudem": null,
+ "osm": {
+  "structures": 0,
+  "kinds": [],
+  "beach_surface": "sand"
+ },
+ "persist_dates": [
+  "2026-10-08",
+  "2026-10-11",
+  "2026-10-18",
+  "2026-10-20",
+  "2026-10-21",
+  "2026-10-23",
+  "2026-10-26",
+  "2026-10-28"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 55.0,
+  "m0": -48.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 52610,
+  "rip_channels": 8,
+  "sandbars": 6,
+  "band_segments": 79,
+  "band_rip": 0,
+  "band_bar": 1,
+  "composite_scenes_median": 17,
+  "persist_dates": 7,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.062,
+   "split_half_iou_shifted": 0.0,
+   "dates_used": 7,
+   "chan_px_composite": 2236,
+   "chan_px_persistent": 218,
+   "bar_px_composite": 3767,
+   "bar_px_persistent": 665,
+   "structure_px_masked": 0
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}

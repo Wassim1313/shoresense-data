@@ -1,0 +1,126 @@
+{
+ "id": "north-avenue-beach-il",
+ "generated_utc": "2026-11-06T15:03Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -9756117.344271887,
+   5146358.790166375,
+   -9752623.417249307,
+   5149852.717188955
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -87.64069,
+  41.90232,
+  -87.60931,
+  41.92568
+ ],
+ "scenes": [
+  {
+   "id": "20261026T164359_20261026T164953_T16TDM",
+   "t": "2026-10-26",
+   "clear": 0.9577080348459022
+  },
+  {
+   "id": "20261021T164331_20261021T164425_T16TDM",
+   "t": "2026-10-21",
+   "clear": 1
+  },
+  {
+   "id": "20261013T164701_20261013T164701_T16TDM",
+   "t": "2026-10-13",
+   "clear": 1
+  },
+  {
+   "id": "20261011T164221_20261011T164838_T16TDM",
+   "t": "2026-10-11",
+   "clear": 1
+  },
+  {
+   "id": "20261006T164149_20261006T164645_T16TDM",
+   "t": "2026-10-06",
+   "clear": 1
+  },
+  {
+   "id": "20260926T163939_20260926T164630_T16TDM",
+   "t": "2026-09-26",
+   "clear": 1
+  },
+  {
+   "id": "20260923T164701_20260923T165130_T16TDM",
+   "t": "2026-09-23",
+   "clear": 0
+  },
+  {
+   "id": "20260911T163851_20260911T164343_T16TDM",
+   "t": "2026-09-11",
+   "clear": 1
+  }
+ ],
+ "scene": {
+  "date": "2026-10-26",
+  "clear_frac": 0.96,
+  "id": "20261026T164359_20261026T164953_T16TDM"
+ },
+ "water": {
+  "water_px": 37570,
+  "turbidity_spm": 17.0,
+  "turbidity_class": "murky",
+  "turbidity_p90": 47.6,
+  "ndti": -0.277,
+  "algae_ndci": -0.085,
+  "algae_class": "none"
+ },
+ "cudem": null,
+ "osm": {
+  "structures": 43,
+  "kinds": [
+   "breakwater",
+   "groyne",
+   "pier"
+  ],
+  "beach_surface": null
+ },
+ "persist_dates": [
+  "2026-09-11",
+  "2026-09-26",
+  "2026-10-06",
+  "2026-10-11",
+  "2026-10-13",
+  "2026-10-21",
+  "2026-10-26"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 55.0,
+  "m0": -48.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 65113,
+  "rip_channels": 7,
+  "sandbars": 7,
+  "band_segments": 59,
+  "band_rip": 11,
+  "band_bar": 13,
+  "composite_scenes_median": 8,
+  "persist_dates": 7,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.268,
+   "split_half_iou_shifted": 0.106,
+   "dates_used": 7,
+   "chan_px_composite": 2467,
+   "chan_px_persistent": 2175,
+   "bar_px_composite": 2540,
+   "bar_px_persistent": 2396,
+   "structure_px_masked": 4977
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}

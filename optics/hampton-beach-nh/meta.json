@@ -1,0 +1,145 @@
+{
+ "id": "hampton-beach-nh",
+ "generated_utc": "2026-11-06T14:59Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -7884196.751572105,
+   5296508.018867339,
+   -7880646.895589712,
+   5300057.874849732
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -70.82494,
+  42.89832,
+  -70.79306,
+  42.92168
+ ],
+ "scenes": [
+  {
+   "id": "20261102T154401_20261102T154803_T19TCH",
+   "t": "2026-11-02",
+   "clear": 0
+  },
+  {
+   "id": "20261030T153551_20261030T153936_T19TCH",
+   "t": "2026-10-30",
+   "clear": 0.9631764637031711
+  },
+  {
+   "id": "20261028T154349_20261028T154424_T19TCH",
+   "t": "2026-10-28",
+   "clear": 0.008778456830893486
+  },
+  {
+   "id": "20261025T153559_20261025T153555_T19TCH",
+   "t": "2026-10-25",
+   "clear": 0.9984010667915159
+  },
+  {
+   "id": "20261023T154311_20261023T154716_T19TCH",
+   "t": "2026-10-23",
+   "clear": 0.9745487455167168
+  },
+  {
+   "id": "20261020T153601_20261020T153555_T19TCH",
+   "t": "2026-10-20",
+   "clear": 0.15998737574303382
+  },
+  {
+   "id": "20261018T154239_20261018T154336_T19TCH",
+   "t": "2026-10-18",
+   "clear": 0.9994670222638387
+  },
+  {
+   "id": "20261015T154701_20261015T154931_T19TCH",
+   "t": "2026-10-15",
+   "clear": 0.9994670222638387
+  },
+  {
+   "id": "20261015T153559_20261015T154002_T19TCH",
+   "t": "2026-10-15",
+   "clear": 0.9994670222638387
+  },
+  {
+   "id": "20261010T153601_20261010T153936_T19TCH",
+   "t": "2026-10-10",
+   "clear": 0.25977543871383085
+  }
+ ],
+ "scene": {
+  "date": "2026-10-30",
+  "clear_frac": 0.96,
+  "id": "20261030T153551_20261030T153936_T19TCH"
+ },
+ "water": {
+  "water_px": 66702,
+  "turbidity_spm": 1.2,
+  "turbidity_class": "clear",
+  "turbidity_p90": 7.3,
+  "ndti": -0.566,
+  "algae_ndci": -0.239,
+  "algae_class": "none"
+ },
+ "cudem": {
+  "res": "1/9 arc-second",
+  "year": 2021,
+  "coverage": 1.0
+ },
+ "osm": {
+  "structures": 42,
+  "kinds": [
+   "groyne",
+   "pier"
+  ],
+  "beach_surface": "sand"
+ },
+ "persist_dates": [
+  "2026-09-18",
+  "2026-10-02",
+  "2026-10-03",
+  "2026-10-15",
+  "2026-10-18",
+  "2026-10-23",
+  "2026-10-25",
+  "2026-10-30"
+ ],
+ "bed": {
+  "calibration": "cudem",
+  "m1": 44.489,
+  "m0": -37.173,
+  "cal_points": 56186,
+  "cal_rmse_m": 1.96,
+  "water_px": 65115,
+  "rip_channels": 11,
+  "sandbars": 12,
+  "band_segments": 72,
+  "band_rip": 16,
+  "band_bar": 33,
+  "composite_scenes_median": 19,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.686,
+   "split_half_iou_shifted": 0.31,
+   "cudem_corr": 0.564,
+   "cudem_px": 15076,
+   "cudem_deeper_at_channels": 0.855,
+   "cudem_deeper_baseline": 0.504,
+   "dates_used": 8,
+   "chan_px_composite": 4773,
+   "chan_px_persistent": 3956,
+   "bar_px_composite": 5273,
+   "bar_px_persistent": 3948,
+   "structure_px_masked": 991
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine",
+  "NOAA NCEI CUDEM"
+ ]
+}

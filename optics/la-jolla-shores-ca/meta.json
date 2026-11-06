@@ -1,0 +1,135 @@
+{
+ "id": "la-jolla-shores-ca",
+ "generated_utc": "2026-11-06T15:01Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -13054537.100742925,
+   3874790.8821985163,
+   -13051441.963150833,
+   3877886.0197906066
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -117.2709,
+  32.84532,
+  -117.2431,
+  32.86868
+ ],
+ "scenes": [
+  {
+   "id": "20261105T183821_20261105T184218_T11SMS",
+   "t": "2026-11-05",
+   "clear": 0.9989305979006169
+  },
+  {
+   "id": "20261105T182539_20261105T183153_T11SMS",
+   "t": "2026-11-05",
+   "clear": 0.9935835874037013
+  },
+  {
+   "id": "20261103T183531_20261103T184001_T11SMS",
+   "t": "2026-11-03",
+   "clear": 0.9989305979006169
+  },
+  {
+   "id": "20261026T182439_20261026T183341_T11SMS",
+   "t": "2026-10-26",
+   "clear": 1
+  },
+  {
+   "id": "20261024T183431_20261024T183602_T11SMS",
+   "t": "2026-10-24",
+   "clear": 0.9983958968509253
+  },
+  {
+   "id": "20261021T182411_20261021T182746_T11SMS",
+   "t": "2026-10-21",
+   "clear": 0.5722978725188813
+  },
+  {
+   "id": "20261019T183359_20261019T184239_T11SMS",
+   "t": "2026-10-19",
+   "clear": 0.9994652989503084
+  },
+  {
+   "id": "20261016T183821_20261016T183821_T11SMS",
+   "t": "2026-10-16",
+   "clear": 1
+  },
+  {
+   "id": "20261016T182339_20261016T183024_T11SMS",
+   "t": "2026-10-16",
+   "clear": 1
+  },
+  {
+   "id": "20261014T183331_20261014T183522_T11SMS",
+   "t": "2026-10-14",
+   "clear": 0.9989305979006169
+  }
+ ],
+ "scene": {
+  "date": "2026-11-05",
+  "clear_frac": 1.0,
+  "id": "20261105T183821_20261105T184218_T11SMS"
+ },
+ "water": {
+  "water_px": 36635,
+  "turbidity_spm": 0.0,
+  "turbidity_class": "clear",
+  "turbidity_p90": 5.2,
+  "ndti": -1.0,
+  "algae_ndci": 0.0,
+  "algae_class": "some"
+ },
+ "cudem": null,
+ "osm": {
+  "structures": 1,
+  "kinds": [
+   "pier"
+  ],
+  "beach_surface": null
+ },
+ "persist_dates": [
+  "2026-10-09",
+  "2026-10-14",
+  "2026-10-16",
+  "2026-10-19",
+  "2026-10-24",
+  "2026-10-26",
+  "2026-11-03",
+  "2026-11-05"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 60.0,
+  "m0": -52.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 37713,
+  "rip_channels": 13,
+  "sandbars": 10,
+  "band_segments": 40,
+  "band_rip": 9,
+  "band_bar": 4,
+  "composite_scenes_median": 27,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.573,
+   "split_half_iou_shifted": 0.076,
+   "dates_used": 8,
+   "chan_px_composite": 898,
+   "chan_px_persistent": 699,
+   "bar_px_composite": 1181,
+   "bar_px_persistent": 984,
+   "structure_px_masked": 0
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}

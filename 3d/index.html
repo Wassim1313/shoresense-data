@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ShoreSense 3-D beach</title>
+<style>
+  :root { --bg:#0b1f33; --fg:#eaf2f8; --muted:#9fb3c4; --accent:#58c7ff; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; overflow:hidden; }
+  #c { width:100%; height:100%; display:block; touch-action:none; }
+  #hud { position:fixed; left:12px; right:12px; top:10px; pointer-events:none; }
+  #hud h1 { font-size:17px; margin:0 0 2px; font-weight:600; }
+  #hud p { margin:0; color:var(--muted); font-size:13px; }
+  #legend { position:fixed; left:12px; bottom:12px; background:rgba(11,31,51,.75); border-radius:10px; padding:8px 10px; font-size:12px; }
+  #legend span { display:inline-block; width:12px; height:12px; border-radius:3px; vertical-align:-2px; margin-right:5px; }
+  #ctl { position:fixed; right:12px; bottom:12px; display:flex; gap:6px; }
+  #ctl button { background:rgba(11,31,51,.8); color:var(--fg); border:1px solid #2d4a66; border-radius:8px; padding:7px 10px; font-size:13px; }
+  #msg { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; text-align:center; padding:24px; color:var(--muted); }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud"><h1 id="t">Loading the beach…</h1><p id="s"></p></div>
+<div id="legend"><span style="background:#dbcc9e"></span>sand &nbsp; <span class="ch" style="background:#59cc73"></span><b class="ch" style="font-weight:400">sandbar &nbsp;</b> <span class="ch" style="background:#e64040"></span><b class="ch" style="font-weight:400">deeper channel &nbsp;</b> <span style="background:#2673b8"></span>water today</div>
+<div id="ctl"><button id="b-waves">Waves: on</button><button id="b-reset">Reset view</button></div>
+<div id="msg">Loading…</div>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const q = new URLSearchParams(location.search);
+const beach = q.get('beach') || 'nags-head-nc';
+const base = q.get('base') || new URL('..', location.href).href;   // data root = parent of /3d/
+const EXAG = parseFloat(q.get('exag') || '4');                       // vertical exaggeration
+const CARD = q.get('card') === '1';                                  // share-card mode: no HUD, fixed frame, sets window.__ready
+const msg = document.getElementById('msg');
+
+const canvas = document.getElementById('c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: CARD });
+if (CARD) { for (const id of ['hud', 'legend', 'ctl']) document.getElementById(id).style.display = 'none'; }
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0b1f33);
+scene.fog = new THREE.Fog(0x0b1f33, 2500, 6000);
+const camera = new THREE.PerspectiveCamera(50, 1, 1, 20000);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.maxPolarAngle = Math.PI * 0.49;
+scene.add(new THREE.HemisphereLight(0xdfefff, 0x40301a, 0.9));
+const sun = new THREE.DirectionalLight(0xffffff, 1.4); sun.position.set(-800, 1200, 600); scene.add(sun);
+
+let water = null, waveOn = true, extras = {};
+function resize() {
+  const w = canvas.clientWidth || innerWidth, h = canvas.clientHeight || innerHeight;
+  renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize); resize();
+
+function setView() {
+  const W = (extras.cols || 130) * (extras.cell_m || 20), H = (extras.rows || 130) * (extras.cell_m || 20);
+  // look from the land towards the water: camera behind the beach, opposite to the shore normal
+  const a = THREE.MathUtils.degToRad(extras.shore_normal_deg ?? 90);
+  const dx = Math.sin(a), dz = -Math.cos(a);          // offshore direction in scene x/-z (north = -z)
+  const kd = CARD ? 0.42 : 0.75, kh = CARD ? 0.30 : 0.7;          // the card frames the surf zone tighter
+  camera.position.set(-dx * W * kd, Math.max(W, H) * kh, -dz * H * kd);
+  controls.target.set(dx * W * 0.12, 0, dz * H * 0.12); controls.update();
+}
+
+new GLTFLoader().load(`${base}scene3d/${beach}.glb?v=${Date.now() >> 20}`, (g) => {
+  extras = g.parser.json.extras || {};
+  g.scene.scale.set(1, EXAG, 1);
+  g.scene.traverse((o) => {
+    if (!o.isMesh) return;
+    o.material.vertexColors = true; o.material.flatShading = false;
+    if (o.name === 'water') { water = o; o.material.transparent = true; o.material.opacity = 0.6; o.renderOrder = 2; }
+  });
+  scene.add(g.scene);
+  if (water) buildWaveMesh();
+  setView();
+  const wv = extras.wave_ft != null ? `${Number(extras.wave_ft).toFixed(1)} ft waves` : 'waves unknown';
+  const per = extras.period_s ? ` every ${Math.round(extras.period_s)} s` : '';
+  document.getElementById('t').textContent = extras.name || beach;
+  document.getElementById('s').textContent = `Water level now: ${extras.water_words || '—'} · ${wv}${per} · drag to rotate, pinch to zoom` + (extras.approximate ? ' · bed shape approximate' : '');
+  if (!extras.channels_painted) document.querySelectorAll('#legend .ch').forEach((e) => { e.style.display = 'none'; });
+  msg.style.display = 'none';
+  if (CARD) setTimeout(() => { window.__ready = true; }, 1500);
+}, undefined, (e) => { msg.textContent = 'No 3-D scene for this beach yet.'; window.__ready = 'error'; console.error(e); });
+
+// replace the flat water quad by a finer plane so waves can be animated
+let waveGeo = null, basePos = null;
+function buildWaveMesh() {
+  const W = extras.cols * extras.cell_m, H = extras.rows * extras.cell_m;
+  waveGeo = new THREE.PlaneGeometry(W, H, 96, 96); waveGeo.rotateX(-Math.PI / 2);
+  basePos = waveGeo.attributes.position.array.slice();
+  const m = new THREE.MeshPhysicalMaterial({ color: 0x2673b8, transparent: true, opacity: 0.62, roughness: 0.25, metalness: 0.05, side: THREE.DoubleSide });
+  const mesh = new THREE.Mesh(waveGeo, m); mesh.position.y = (extras.water_level_m || 0) * EXAG; mesh.renderOrder = 2;
+  water.visible = false; scene.add(mesh); water = mesh;
+}
+const clock = new THREE.Clock();
+function animate() {
+  requestAnimationFrame(animate);
+  if (waveGeo && waveOn) {
+    const t = clock.getElapsedTime();
+    const amp = Math.min(3, (extras.wave_ft || 1) * 0.3048) * 0.5 * EXAG;      // half wave height, exaggerated
+    const T = Math.max(4, extras.period_s || 8), L = 1.56 * T * T * 0.35;       // shallow-water-ish wavelength
+    const a = THREE.MathUtils.degToRad(extras.shore_normal_deg ?? 90);
+    const dx = Math.sin(a), dz = -Math.cos(a);
+    const p = waveGeo.attributes.position.array;
+    for (let i = 0; i < p.length; i += 3) {
+      const s = p[i] * dx + p[i + 2] * dz;                                        // offshore coordinate
+      p[i + 1] = basePos[i + 1] + amp * Math.sin(2 * Math.PI * (s / L + t / T)) + amp * 0.25 * Math.sin(2 * Math.PI * (p[i] * 0.003 + t / (T * 0.7)));
+    }
+    waveGeo.attributes.position.needsUpdate = true; waveGeo.computeVertexNormals();
+  }
+  controls.update(); renderer.render(scene, camera);
+}
+animate();
+document.getElementById('b-waves').onclick = (e) => { waveOn = !waveOn; e.target.textContent = `Waves: ${waveOn ? 'on' : 'off'}`; };
+document.getElementById('b-reset').onclick = setView;
+</script>
+</body>
+</html>
