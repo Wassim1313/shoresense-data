@@ -1,0 +1,136 @@
+{
+ "id": "grand-haven-mi",
+ "generated_utc": "2026-11-14T09:08Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -9602862.5900485,
+   5318720.357963775,
+   -9599304.293828022,
+   5322278.654184253
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -86.26398,
+  43.04432,
+  -86.23202,
+  43.06768
+ ],
+ "scenes": [
+  {
+   "id": "20261110T164521_20261110T164519_T16TEN",
+   "t": "2026-11-10",
+   "clear": 1
+  },
+  {
+   "id": "20261109T163651_20261109T163951_T16TEN",
+   "t": "2026-11-09",
+   "clear": 0.0035822730808803293
+  },
+  {
+   "id": "20261028T163401_20261028T163831_T16TEN",
+   "t": "2026-10-28",
+   "clear": 1
+  },
+  {
+   "id": "20261026T164359_20261026T164953_T16TEN",
+   "t": "2026-10-26",
+   "clear": 1
+  },
+  {
+   "id": "20261023T163339_20261023T163826_T16TEN",
+   "t": "2026-10-23",
+   "clear": 1
+  },
+  {
+   "id": "20261021T164331_20261021T164425_T16TEN",
+   "t": "2026-10-21",
+   "clear": 1
+  },
+  {
+   "id": "20261020T163701_20261020T163657_T16TEN",
+   "t": "2026-10-20",
+   "clear": 1
+  },
+  {
+   "id": "20261018T163301_20261018T163311_T16TEN",
+   "t": "2026-10-18",
+   "clear": 1
+  },
+  {
+   "id": "20261013T164701_20261013T164701_T16TEN",
+   "t": "2026-10-13",
+   "clear": 1
+  },
+  {
+   "id": "20261013T163229_20261013T163225_T16TEN",
+   "t": "2026-10-13",
+   "clear": 1
+  }
+ ],
+ "scene": {
+  "date": "2026-11-10",
+  "clear_frac": 1,
+  "id": "20261110T164521_20261110T164519_T16TEN"
+ },
+ "water": {
+  "water_px": 67074,
+  "turbidity_spm": 0.5,
+  "turbidity_class": "clear",
+  "turbidity_p90": 4.1,
+  "ndti": -0.764,
+  "algae_ndci": -0.467,
+  "algae_class": "none"
+ },
+ "cudem": null,
+ "osm": {
+  "structures": 170,
+  "kinds": [
+   "breakwater",
+   "pier"
+  ],
+  "beach_surface": "sand"
+ },
+ "persist_dates": [
+  "2026-10-13",
+  "2026-10-18",
+  "2026-10-20",
+  "2026-10-21",
+  "2026-10-23",
+  "2026-10-26",
+  "2026-10-28",
+  "2026-11-10"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 55.0,
+  "m0": -48.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 67032,
+  "rip_channels": 4,
+  "sandbars": 14,
+  "band_segments": 57,
+  "band_rip": 22,
+  "band_bar": 27,
+  "composite_scenes_median": 18,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.75,
+   "split_half_iou_shifted": 0.387,
+   "dates_used": 8,
+   "chan_px_composite": 3922,
+   "chan_px_persistent": 3911,
+   "bar_px_composite": 4753,
+   "bar_px_persistent": 4597,
+   "structure_px_masked": 3374
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}

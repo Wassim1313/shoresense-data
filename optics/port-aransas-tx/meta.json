@@ -1,0 +1,130 @@
+{
+ "id": "port-aransas-tx",
+ "generated_utc": "2026-11-14T09:17Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -10805583.166713927,
+   3225709.9166473434,
+   -10802643.191168405,
+   3228649.892192866
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -97.06821,
+  27.81532,
+  -97.04179,
+  27.83868
+ ],
+ "scenes": [
+  {
+   "id": "20261106T170511_20261106T171422_T14RPR",
+   "t": "2026-11-06",
+   "clear": 0.2977957130129451
+  },
+  {
+   "id": "20261101T170449_20261101T171250_T14RPR",
+   "t": "2026-11-01",
+   "clear": 0.7907531051831663
+  },
+  {
+   "id": "20261019T170711_20261019T170738_T14RPR",
+   "t": "2026-10-19",
+   "clear": 0
+  },
+  {
+   "id": "20261017T170311_20261017T170856_T14RPR",
+   "t": "2026-10-17",
+   "clear": 0.8641266181017769
+  },
+  {
+   "id": "20261012T170239_20261012T170931_T14RPR",
+   "t": "2026-10-12",
+   "clear": 0.9798941355274879
+  },
+  {
+   "id": "20261007T170201_20261007T170710_T14RPR",
+   "t": "2026-10-07",
+   "clear": 0.9994654368219695
+  },
+  {
+   "id": "20260929T170711_20260929T171230_T14RPR",
+   "t": "2026-09-29",
+   "clear": 0.993585241863634
+  },
+  {
+   "id": "20260927T170051_20260927T170744_T14RPR",
+   "t": "2026-09-27",
+   "clear": 0.8654829411456423
+  },
+  {
+   "id": "20260922T165919_20260922T170819_T14RPR",
+   "t": "2026-09-22",
+   "clear": 1
+  }
+ ],
+ "scene": {
+  "date": "2026-10-17",
+  "clear_frac": 0.86,
+  "id": "20261017T170311_20261017T170856_T14RPR"
+ },
+ "water": {
+  "water_px": 37755,
+  "turbidity_spm": 33.2,
+  "turbidity_class": "murky",
+  "turbidity_p90": 98.8,
+  "ndti": -0.135,
+  "algae_ndci": -0.064,
+  "algae_class": "none"
+ },
+ "cudem": null,
+ "osm": {
+  "structures": 17,
+  "kinds": [
+   "breakwater",
+   "pier"
+  ],
+  "beach_surface": "sand"
+ },
+ "persist_dates": [
+  "2026-09-22",
+  "2026-09-27",
+  "2026-09-29",
+  "2026-10-07",
+  "2026-10-12",
+  "2026-10-17",
+  "2026-11-01"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 55.0,
+  "m0": -48.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 40323,
+  "rip_channels": 11,
+  "sandbars": 16,
+  "band_segments": 71,
+  "band_rip": 0,
+  "band_bar": 1,
+  "composite_scenes_median": 9,
+  "persist_dates": 7,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.526,
+   "split_half_iou_shifted": 0.183,
+   "dates_used": 7,
+   "chan_px_composite": 1250,
+   "chan_px_persistent": 322,
+   "bar_px_composite": 2819,
+   "bar_px_persistent": 987,
+   "structure_px_masked": 1328
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}

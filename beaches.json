@@ -1,0 +1,2016 @@
+[
+ {
+  "id": "clearwater-beach-fl",
+  "name": "Clearwater Beach",
+  "state": "FL",
+  "coast": "gulf",
+  "lat": 27.9775,
+  "lon": -82.829,
+  "shore_normal": 270,
+  "notes": "Pier 60, family",
+  "lake": false,
+  "zip": "33767",
+  "nws": {
+   "office": "TBW",
+   "gridX": 57,
+   "gridY": 97,
+   "zone": "FLZ050",
+   "county": "FLC103",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/TBW/57,97"
+  },
+  "coops": {
+   "id": "8726724",
+   "name": "Clearwater Beach",
+   "km": 0.3,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "CWBF1",
+   "km": 0.3,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/New_York"
+ },
+ {
+  "id": "siesta-key-fl",
+  "name": "Siesta Key Beach",
+  "state": "FL",
+  "coast": "gulf",
+  "lat": 27.2672,
+  "lon": -82.5506,
+  "shore_normal": 250,
+  "notes": "quartz sand",
+  "lake": false,
+  "zip": "34242",
+  "nws": {
+   "office": "TBW",
+   "gridX": 70,
+   "gridY": 67,
+   "zone": "FLZ160",
+   "county": "FLC115",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/TBW/70,67"
+  },
+  "coops": {
+   "id": "8726034",
+   "name": "Siesta Key, Big Sarasota Pass",
+   "km": 2.3,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "42013",
+   "km": 38.4,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/New_York"
+ },
+ {
+  "id": "miami-south-beach-fl",
+  "name": "Miami South Beach",
+  "state": "FL",
+  "coast": "atlantic",
+  "lat": 25.7826,
+  "lon": -80.13,
+  "shore_normal": 90,
+  "notes": "Lummus Park",
+  "lake": false,
+  "zip": "33139",
+  "nws": {
+   "office": "MFL",
+   "gridX": 112,
+   "gridY": 51,
+   "zone": "FLZ173",
+   "county": "FLC086",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/MFL/112,51"
+  },
+  "coops": {
+   "id": "8723170",
+   "name": "Miami Harbor Entrance",
+   "km": 1.6,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "VAKF1",
+   "km": 6.6,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/New_York"
+ },
+ {
+  "id": "cocoa-beach-fl",
+  "name": "Cocoa Beach",
+  "state": "FL",
+  "coast": "atlantic",
+  "lat": 28.32,
+  "lon": -80.607,
+  "shore_normal": 90,
+  "notes": "pier, surf",
+  "lake": false,
+  "zip": "32931",
+  "nws": {
+   "office": "MLB",
+   "gridX": 56,
+   "gridY": 62,
+   "zone": "FLZ747",
+   "county": "FLC009",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/MLB/56,62"
+  },
+  "coops": {
+   "id": "8721649",
+   "name": "Cocoa Beach",
+   "km": 5.4,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "41113",
+   "km": 11.5,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/New_York"
+ },
+ {
+  "id": "pensacola-beach-fl",
+  "name": "Pensacola Beach",
+  "state": "FL",
+  "coast": "gulf",
+  "lat": 30.327,
+  "lon": -87.141,
+  "shore_normal": 180,
+  "notes": "Casino Beach",
+  "lake": false,
+  "zip": "32561",
+  "nws": {
+   "office": "MOB",
+   "gridX": 87,
+   "gridY": 53,
+   "zone": "FLZ202",
+   "county": "FLC033",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/MOB/87,53"
+  },
+  "coops": {
+   "id": "8729807",
+   "name": "Pensacola Beach Pier",
+   "km": 0.1,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "PCLF1",
+   "km": 10.9,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/Chicago"
+ },
+ {
+  "id": "myrtle-beach-sc",
+  "name": "Myrtle Beach",
+  "state": "SC",
+  "coast": "atlantic",
+  "lat": 33.69,
+  "lon": -78.88,
+  "shore_normal": 130,
+  "notes": "boardwalk",
+  "lake": false,
+  "zip": "29577",
+  "nws": {
+   "office": "ILM",
+   "gridX": 58,
+   "gridY": 47,
+   "zone": "SCZ054",
+   "county": "SCC051",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/ILM/58,47"
+  },
+  "coops": {
+   "id": "8660854",
+   "name": "Myrtle Beach, Combination Bridge",
+   "km": 4.6,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "MROS1",
+   "km": 5.0,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/southeast/ncei19_n33x75_w079x00_2019v1.tif",
+   "res": "1/9 arc-second",
+   "north": 33.75,
+   "west": -79.0,
+   "size_deg": 0.25,
+   "year": 2019,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/southeast/ncei19_n33x75_w079x00_2019v1.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "nags-head-nc",
+  "name": "Nags Head (Outer Banks)",
+  "state": "NC",
+  "coast": "atlantic",
+  "lat": 35.957,
+  "lon": -75.624,
+  "shore_normal": 90,
+  "notes": "Jennette's Pier",
+  "lake": false,
+  "zip": "27959",
+  "nws": {
+   "office": "MHX",
+   "gridX": 91,
+   "gridY": 119,
+   "zone": "NCZ203",
+   "county": "NCC055",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/MHX/91,119"
+  },
+  "coops": {
+   "id": "8652226",
+   "name": "Jennettes Pier, Nags Head (ocean)",
+   "km": 6.0,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "44086",
+   "km": 18.9,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/NC/ncei19_n36x00_w075x75_2019v2.tif",
+   "res": "1/9 arc-second",
+   "north": 36.0,
+   "west": -75.75,
+   "size_deg": 0.25,
+   "year": 2019,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/NC/ncei19_n36x00_w075x75_2019v2.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "virginia-beach-va",
+  "name": "Virginia Beach",
+  "state": "VA",
+  "coast": "atlantic",
+  "lat": 36.852,
+  "lon": -75.976,
+  "shore_normal": 90,
+  "notes": "oceanfront",
+  "lake": false,
+  "zip": "23451",
+  "nws": {
+   "office": "AKQ",
+   "gridX": 101,
+   "gridY": 53,
+   "zone": "VAZ098",
+   "county": "VAC810",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/AKQ/101,53"
+  },
+  "coops": {
+   "id": "8639168",
+   "name": "Virginia Beach",
+   "km": 1.0,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "44099",
+   "km": 23.7,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/chesapeake_bay/ncei19_n37x00_w076x00_2019v1.tif",
+   "res": "1/9 arc-second",
+   "north": 37.0,
+   "west": -76.0,
+   "size_deg": 0.25,
+   "year": 2019,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/chesapeake_bay/ncei19_n37x00_w076x00_2019v1.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "ocean-city-md",
+  "name": "Ocean City",
+  "state": "MD",
+  "coast": "atlantic",
+  "lat": 38.335,
+  "lon": -75.082,
+  "shore_normal": 90,
+  "notes": "boardwalk",
+  "lake": false,
+  "zip": "21842",
+  "nws": {
+   "office": "AKQ",
+   "gridX": 123,
+   "gridY": 124,
+   "zone": "MDZ025",
+   "county": "MDC047",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/AKQ/123,124"
+  },
+  "coops": {
+   "id": "8570282",
+   "name": "Ocean City (Isle of Wight Bay)",
+   "km": 0.8,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "OCIM2",
+   "km": 1.1,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/chesapeake_bay/ncei19_n38x50_w075x25_2019v1.tif",
+   "res": "1/9 arc-second",
+   "north": 38.5,
+   "west": -75.25,
+   "size_deg": 0.25,
+   "year": 2019,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/chesapeake_bay/ncei19_n38x50_w075x25_2019v1.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "rockaway-beach-ny",
+  "name": "Rockaway Beach",
+  "state": "NY",
+  "coast": "atlantic",
+  "lat": 40.579,
+  "lon": -73.838,
+  "shore_normal": 180,
+  "notes": "NYC surf beach",
+  "lake": false,
+  "zip": "11693",
+  "nws": {
+   "office": "OKX",
+   "gridX": 40,
+   "gridY": 37,
+   "zone": "NYZ178",
+   "county": "NYC081",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/OKX/40,37"
+  },
+  "coops": {
+   "id": "8517137",
+   "name": "Beach Channel (bridge)",
+   "km": 1.8,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "BATN6",
+   "km": 20.1,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x75_w074x00_2015v1.tif",
+   "res": "1/9 arc-second",
+   "north": 40.75,
+   "west": -74.0,
+   "size_deg": 0.25,
+   "year": 2015,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x75_w074x00_2015v1.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "coney-island-ny",
+  "name": "Coney Island",
+  "state": "NY",
+  "coast": "atlantic",
+  "lat": 40.572,
+  "lon": -73.979,
+  "shore_normal": 180,
+  "notes": "NYC",
+  "lake": false,
+  "zip": "11224",
+  "nws": {
+   "office": "OKX",
+   "gridX": 35,
+   "gridY": 36,
+   "zone": "NYZ075",
+   "county": "NYC047",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/OKX/35,36"
+  },
+  "coops": {
+   "id": "8517741",
+   "name": "Coney Island",
+   "km": 0.4,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "BATN6",
+   "km": 14.6,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x75_w074x00_2015v1.tif",
+   "res": "1/9 arc-second",
+   "north": 40.75,
+   "west": -74.0,
+   "size_deg": 0.25,
+   "year": 2015,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x75_w074x00_2015v1.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "nauset-beach-ma",
+  "name": "Nauset Beach (Cape Cod)",
+  "state": "MA",
+  "coast": "atlantic",
+  "lat": 41.796,
+  "lon": -69.936,
+  "shore_normal": 90,
+  "notes": "great whites, seals",
+  "lake": false,
+  "zip": "02653",
+  "nws": {
+   "office": "BOX",
+   "gridX": 114,
+   "gridY": 82,
+   "zone": "MAZ022",
+   "county": "MAC001",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/BOX/114,82"
+  },
+  "coops": {
+   "id": "8447291",
+   "name": "Pleasant Bay",
+   "km": 7.6,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "44090",
+   "km": 32.9,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/MA_NH_ME/ncei19_n42x00_w070x00_2021v1.tif",
+   "res": "1/9 arc-second",
+   "north": 42.0,
+   "west": -70.0,
+   "size_deg": 0.25,
+   "year": 2021,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/MA_NH_ME/ncei19_n42x00_w070x00_2021v1.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "hampton-beach-nh",
+  "name": "Hampton Beach",
+  "state": "NH",
+  "coast": "atlantic",
+  "lat": 42.91,
+  "lon": -70.809,
+  "shore_normal": 90,
+  "notes": "state park",
+  "lake": false,
+  "zip": "03842",
+  "nws": {
+   "office": "GYX",
+   "gridX": 60,
+   "gridY": 20,
+   "zone": "NHZ014",
+   "county": "NHC015",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/GYX/60,20"
+  },
+  "coops": {
+   "id": "8429489",
+   "name": "Hampton Harbor",
+   "km": 1.8,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "44074",
+   "km": 18.5,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/MA_NH_ME/ncei19_n43x00_w071x00_2021v1.tif",
+   "res": "1/9 arc-second",
+   "north": 43.0,
+   "west": -71.0,
+   "size_deg": 0.25,
+   "year": 2021,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/MA_NH_ME/ncei19_n43x00_w071x00_2021v1.tif"
+  },
+  "tz": "America/New_York"
+ },
+ {
+  "id": "galveston-tx",
+  "name": "Galveston (Stewart Beach)",
+  "state": "TX",
+  "coast": "gulf",
+  "lat": 29.304,
+  "lon": -94.77,
+  "shore_normal": 135,
+  "notes": "seawall",
+  "lake": false,
+  "zip": "77550",
+  "nws": {
+   "office": "HGX",
+   "gridX": 86,
+   "gridY": 75,
+   "zone": "TXZ438",
+   "county": "TXC167",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/HGX/86,75"
+  },
+  "coops": {
+   "id": "8771450",
+   "name": "GALVESTON, Galveston Channel",
+   "km": 2.4,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "GTOT2",
+   "km": 2.3,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/TX/ncei19_n29x50_w095x00_2021v2.tif",
+   "res": "1/9 arc-second",
+   "north": 29.5,
+   "west": -95.0,
+   "size_deg": 0.25,
+   "year": 2021,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/TX/ncei19_n29x50_w095x00_2021v2.tif"
+  },
+  "tz": "America/Chicago"
+ },
+ {
+  "id": "south-padre-island-tx",
+  "name": "South Padre Island",
+  "state": "TX",
+  "coast": "gulf",
+  "lat": 26.112,
+  "lon": -97.165,
+  "shore_normal": 90,
+  "notes": "spring break",
+  "lake": false,
+  "zip": "78597",
+  "nws": {
+   "office": "BRO",
+   "gridX": 91,
+   "gridY": 14,
+   "zone": "TXZ455",
+   "county": "TXC061",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/BRO/91,14"
+  },
+  "coops": {
+   "id": "8779724",
+   "name": "Queen Isabella Causeway (east end)",
+   "km": 3.8,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "PCGT2",
+   "km": 4.5,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/Chicago"
+ },
+ {
+  "id": "gulf-shores-al",
+  "name": "Gulf Shores",
+  "state": "AL",
+  "coast": "gulf",
+  "lat": 30.246,
+  "lon": -87.701,
+  "shore_normal": 180,
+  "notes": "public beach",
+  "lake": false,
+  "zip": "36542",
+  "nws": {
+   "office": "MOB",
+   "gridX": 66,
+   "gridY": 48,
+   "zone": "ALZ266",
+   "county": "ALC003",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/MOB/66,48"
+  },
+  "coops": {
+   "id": "8731269",
+   "name": "Gulf State Park Pier",
+   "km": 3.2,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "42012",
+   "km": 25.3,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/Chicago"
+ },
+ {
+  "id": "santa-monica-ca",
+  "name": "Santa Monica Beach",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 34.008,
+  "lon": -118.499,
+  "shore_normal": 225,
+  "notes": "pier",
+  "lake": false,
+  "zip": "90401",
+  "nws": {
+   "office": "LOX",
+   "gridX": 145,
+   "gridY": 45,
+   "zone": "CAZ366",
+   "county": "CAC037",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/LOX/145,45"
+  },
+  "coops": {
+   "id": "9410840",
+   "name": "Santa Monica, Municipal Pier",
+   "km": 0.1,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "ICAC1",
+   "km": 0.1,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/Los_Angeles"
+ },
+ {
+  "id": "huntington-beach-ca",
+  "name": "Huntington Beach",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 33.655,
+  "lon": -118.004,
+  "shore_normal": 215,
+  "notes": "Surf City",
+  "lake": false,
+  "zip": "92648",
+  "nws": {
+   "office": "SGX",
+   "gridX": 33,
+   "gridY": 60,
+   "zone": "CAZ552",
+   "county": "CAC059",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/SGX/33,60"
+  },
+  "coops": {
+   "id": "9410599",
+   "name": "Santa Ana River entrance (inside)",
+   "km": 5.1,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "46253",
+   "km": 18.7,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/Los_Angeles"
+ },
+ {
+  "id": "la-jolla-shores-ca",
+  "name": "La Jolla Shores",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 32.857,
+  "lon": -117.257,
+  "shore_normal": 270,
+  "notes": "family, kayaks",
+  "lake": false,
+  "zip": "92037",
+  "nws": {
+   "office": "SGX",
+   "gridX": 54,
+   "gridY": 21,
+   "zone": "CAZ043",
+   "county": "CAC073",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/SGX/54,21"
+  },
+  "coops": {
+   "id": "9410230",
+   "name": "La Jolla (Scripps Institution Wharf)",
+   "km": 1.1,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "LJAC1",
+   "km": 1.1,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null,
+  "tz": "America/Los_Angeles"
+ },
+ {
+  "id": "ocean-beach-sf-ca",
+  "name": "Ocean Beach (San Francisco)",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 37.76,
+  "lon": -122.513,
+  "shore_normal": 270,
+  "notes": "strong rips",
+  "lake": false,
+  "zip": "94122",
+  "nws": {
+   "office": "MTR",
+   "gridX": 81,
+   "gridY": 105,
+   "zone": "CAZ006",
+   "county": "CAC075",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/MTR/81,105"
+  },
+  "coops": {
+   "id": "9414275",
+   "name": "Ocean Beach, outer coast",
+   "km": 1.7,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "46237",
+   "km": 11.1,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/CA/ncei19_n38x00_w122x75_2022v1.tif",
+   "res": "1/9 arc-second",
+   "north": 38.0,
+   "west": -122.75,
+   "size_deg": 0.25,
+   "year": 2022,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/CA/ncei19_n38x00_w122x75_2022v1.tif"
+  },
+  "tz": "America/Los_Angeles"
+ },
+ {
+  "id": "cannon-beach-or",
+  "name": "Cannon Beach",
+  "state": "OR",
+  "coast": "pacific",
+  "lat": 45.89,
+  "lon": -123.963,
+  "shore_normal": 270,
+  "notes": "Haystack Rock",
+  "lake": false,
+  "zip": "97110",
+  "nws": {
+   "office": "PQR",
+   "gridX": 75,
+   "gridY": 130,
+   "zone": "ORZ101",
+   "county": "ORC007",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/PQR/75,130"
+  },
+  "coops": {
+   "id": "9437954",
+   "name": "North Fork, Nehalem River",
+   "km": 18.6,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "46278",
+   "km": 36.9,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/OR/ncei19_n46x00_w124x00_2025v1.tif",
+   "res": "1/9 arc-second",
+   "north": 46.0,
+   "west": -124.0,
+   "size_deg": 0.25,
+   "year": 2025,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/OR/ncei19_n46x00_w124x00_2025v1.tif"
+  },
+  "tz": "America/Los_Angeles"
+ },
+ {
+  "id": "waikiki-hi",
+  "name": "Waikiki Beach",
+  "state": "HI",
+  "coast": "hawaii",
+  "lat": 21.276,
+  "lon": -157.827,
+  "shore_normal": 180,
+  "notes": "Honolulu",
+  "lake": false,
+  "zip": "96815",
+  "nws": {
+   "office": "HFO",
+   "gridX": 156,
+   "gridY": 143,
+   "zone": "HIZ033",
+   "county": "HIC003",
+   "tz": "Pacific/Honolulu",
+   "grid_url": "https://api.weather.gov/gridpoints/HFO/156,143"
+  },
+  "coops": {
+   "id": "1612340",
+   "name": "HONOLULU",
+   "km": 4.9,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "OOUH1",
+   "km": 5.0,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_Hawaii_9428/tiles/ncei19_n21x50_w158x00_2021v1.tif",
+   "res": "1/9 arc-second",
+   "north": 21.5,
+   "west": -158.0,
+   "size_deg": 0.25,
+   "year": 2021,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_Hawaii_9428/tiles/ncei19_n21x50_w158x00_2021v1.tif"
+  },
+  "tz": "Pacific/Honolulu"
+ },
+ {
+  "id": "grand-haven-mi",
+  "name": "Grand Haven State Park",
+  "state": "MI",
+  "coast": "greatlakes",
+  "lat": 43.056,
+  "lon": -86.248,
+  "shore_normal": 270,
+  "notes": "Lake Michigan pier",
+  "lake": true,
+  "zip": "49417",
+  "nws": {
+   "office": "GRR",
+   "gridX": 21,
+   "gridY": 50,
+   "zone": "MIZ056",
+   "county": "MIC139",
+   "tz": "America/Detroit",
+   "grid_url": "https://api.weather.gov/gridpoints/GRR/21,50"
+  },
+  "coops": null,
+  "ndbc": {
+   "id": "45161",
+   "km": 16.8,
+   "waves": true,
+   "water_temp": false
+  },
+  "cudem": null,
+  "tz": "America/Detroit"
+ },
+ {
+  "id": "north-avenue-beach-il",
+  "name": "North Avenue Beach (Chicago)",
+  "state": "IL",
+  "coast": "greatlakes",
+  "lat": 41.914,
+  "lon": -87.625,
+  "shore_normal": 90,
+  "notes": "Lake Michigan",
+  "lake": true,
+  "zip": "60614",
+  "nws": {
+   "office": "LOT",
+   "gridX": 76,
+   "gridY": 75,
+   "zone": "ILZ104",
+   "county": "ILC031",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/LOT/76,75"
+  },
+  "coops": null,
+  "ndbc": {
+   "id": "45174",
+   "km": 24.7,
+   "waves": true,
+   "water_temp": false
+  },
+  "cudem": null,
+  "tz": "America/Chicago"
+ },
+ {
+  "id": "venice-beach-ca",
+  "name": "Venice Beach",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 33.985,
+  "lon": -118.473,
+  "shore_normal": 240,
+  "notes": "boardwalk",
+  "lake": false,
+  "zip": "90291",
+  "nws": {
+   "office": "LOX",
+   "gridX": 146,
+   "gridY": 43,
+   "zone": "CAZ366",
+   "county": "CAC037",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/LOX/146,43"
+  },
+  "tz": "America/Los_Angeles",
+  "coops": {
+   "id": "9410840",
+   "name": "Santa Monica, Municipal Pier",
+   "km": 3.6,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "ICAC1",
+   "km": 3.6,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "zuma-beach-ca",
+  "name": "Zuma Beach (Malibu)",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 34.015,
+  "lon": -118.8225,
+  "shore_normal": 205,
+  "notes": "wide sand",
+  "lake": false,
+  "zip": "90265",
+  "nws": {
+   "office": "LOX",
+   "gridX": 134,
+   "gridY": 47,
+   "zone": "CAZ362",
+   "county": "CAC037",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/LOX/134,47"
+  },
+  "tz": "America/Los_Angeles",
+  "coops": {
+   "id": "TWC0445",
+   "name": "Mugu Lagoon (ocean pier)",
+   "km": 27.3,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "46268",
+   "km": 22.5,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "newport-beach-ca",
+  "name": "Newport Beach (Balboa Pier)",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 33.599,
+  "lon": -117.9,
+  "shore_normal": 210,
+  "notes": "pier, Wedge nearby",
+  "lake": false,
+  "zip": "92661",
+  "nws": {
+   "office": "SGX",
+   "gridX": 36,
+   "gridY": 57,
+   "zone": "CAZ552",
+   "county": "CAC059",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/SGX/36,57"
+  },
+  "tz": "America/Los_Angeles",
+  "coops": {
+   "id": "9410583",
+   "name": "Balboa Pier, Newport Beach",
+   "km": 0.1,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "46253",
+   "km": 26.2,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "coronado-beach-ca",
+  "name": "Coronado Beach",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 32.683,
+  "lon": -117.183,
+  "shore_normal": 240,
+  "notes": "Hotel del Coronado",
+  "lake": false,
+  "zip": "92118",
+  "nws": {
+   "office": "SGX",
+   "gridX": 56,
+   "gridY": 13,
+   "zone": "CAZ043",
+   "county": "CAC073",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/SGX/56,13"
+  },
+  "tz": "America/Los_Angeles",
+  "coops": {
+   "id": "9410170",
+   "name": "SAN DIEGO (Broadway)",
+   "km": 3.7,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "SDBC1",
+   "km": 3.5,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "santa-cruz-main-beach-ca",
+  "name": "Santa Cruz Main Beach",
+  "state": "CA",
+  "coast": "pacific",
+  "lat": 36.9625,
+  "lon": -122.0185,
+  "shore_normal": 180,
+  "notes": "boardwalk",
+  "lake": false,
+  "zip": "95060",
+  "nws": {
+   "office": "MTR",
+   "gridX": 91,
+   "gridY": 67,
+   "zone": "CAZ529",
+   "county": "CAC087",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/MTR/91,67"
+  },
+  "tz": "America/Los_Angeles",
+  "coops": {
+   "id": "9413745",
+   "name": "Santa Cruz, Monterey Bay",
+   "km": 0.5,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "46236",
+   "km": 23.4,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/CA/ncei19_n37x00_w122x25_2023v1.tif",
+   "res": "1/9 arc-second",
+   "north": 37.0,
+   "west": -122.25,
+   "size_deg": 0.25,
+   "year": 2023,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/CA/ncei19_n37x00_w122x25_2023v1.tif"
+  }
+ },
+ {
+  "id": "seaside-or",
+  "name": "Seaside Beach",
+  "state": "OR",
+  "coast": "pacific",
+  "lat": 45.993,
+  "lon": -123.931,
+  "shore_normal": 270,
+  "notes": "promenade",
+  "lake": false,
+  "zip": "97138",
+  "nws": {
+   "office": "PQR",
+   "gridX": 77,
+   "gridY": 134,
+   "zone": "ORZ101",
+   "county": "ORC007",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/PQR/77,134"
+  },
+  "tz": "America/Los_Angeles",
+  "coops": {
+   "id": "9438772",
+   "name": "Cathcart Landing, Youngs River",
+   "km": 17.6,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "46243",
+   "km": 29.0,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/OR/ncei19_n46x00_w124x00_2025v1.tif",
+   "res": "1/9 arc-second",
+   "north": 46.0,
+   "west": -124.0,
+   "size_deg": 0.25,
+   "year": 2025,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/OR/ncei19_n46x00_w124x00_2025v1.tif"
+  }
+ },
+ {
+  "id": "long-beach-wa",
+  "name": "Long Beach",
+  "state": "WA",
+  "coast": "pacific",
+  "lat": 46.3522,
+  "lon": -124.0645,
+  "shore_normal": 270,
+  "notes": "long peninsula",
+  "lake": false,
+  "zip": "98631",
+  "nws": {
+   "office": "PQR",
+   "gridX": 77,
+   "gridY": 151,
+   "zone": "WAZ201",
+   "county": "WAC049",
+   "tz": "America/Los_Angeles",
+   "grid_url": "https://api.weather.gov/gridpoints/PQR/77,151"
+  },
+  "tz": "America/Los_Angeles",
+  "coops": {
+   "id": "TWC0933",
+   "name": "Tarlatt Slough",
+   "km": 5.0,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "46243",
+   "km": 16.0,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/columbia_river/ncei19_n46x50_w124x25_2024v1.tif",
+   "res": "1/9 arc-second",
+   "north": 46.5,
+   "west": -124.25,
+   "size_deg": 0.25,
+   "year": 2024,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/columbia_river/ncei19_n46x50_w124x25_2024v1.tif"
+  }
+ },
+ {
+  "id": "daytona-beach-fl",
+  "name": "Daytona Beach",
+  "state": "FL",
+  "coast": "atlantic",
+  "lat": 29.2285,
+  "lon": -81.0082,
+  "shore_normal": 75,
+  "notes": "drive-on beach",
+  "lake": false,
+  "zip": "32118",
+  "nws": {
+   "office": "MLB",
+   "gridX": 37,
+   "gridY": 100,
+   "zone": "FLZ141",
+   "county": "FLC127",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/MLB/37,100"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8720954",
+   "name": "Ormond Beach, Halifax River",
+   "km": 7.7,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "41069",
+   "km": 21.0,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "fort-lauderdale-fl",
+  "name": "Fort Lauderdale Beach",
+  "state": "FL",
+  "coast": "atlantic",
+  "lat": 26.119,
+  "lon": -80.1035,
+  "shore_normal": 90,
+  "notes": "promenade",
+  "lake": false,
+  "zip": "33304",
+  "nws": {
+   "office": "MFL",
+   "gridX": 111,
+   "gridY": 66,
+   "zone": "FLZ172",
+   "county": "FLC011",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/MFL/111,66"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8722939",
+   "name": "Bahia Mar Yacht Club",
+   "km": 0.8,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "41122",
+   "km": 13.1,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "st-augustine-beach-fl",
+  "name": "St. Augustine Beach",
+  "state": "FL",
+  "coast": "atlantic",
+  "lat": 29.857,
+  "lon": -81.264,
+  "shore_normal": 80,
+  "notes": "pier",
+  "lake": false,
+  "zip": "32080",
+  "nws": {
+   "office": "JAX",
+   "gridX": 82,
+   "gridY": 45,
+   "zone": "FLZ333",
+   "county": "FLC109",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/JAX/82,45"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8720587",
+   "name": "St. Augustine Beach",
+   "km": 0.1,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "41117",
+   "km": 23.8,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "naples-beach-fl",
+  "name": "Naples Beach (Pier)",
+  "state": "FL",
+  "coast": "gulf",
+  "lat": 26.1317,
+  "lon": -81.8077,
+  "shore_normal": 260,
+  "notes": "pier",
+  "lake": false,
+  "zip": "34102",
+  "nws": {
+   "office": "MFL",
+   "gridX": 45,
+   "gridY": 60,
+   "zone": "FLZ069",
+   "county": "FLC021",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/MFL/45,60"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8725110",
+   "name": "Naples (outer coast)",
+   "km": 0.0,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "FMRF1",
+   "km": 57.6,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/FL/ncei19_n26x25_w082x00_2017v1.tif",
+   "res": "1/9 arc-second",
+   "north": 26.25,
+   "west": -82.0,
+   "size_deg": 0.25,
+   "year": 2017,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/FL/ncei19_n26x25_w082x00_2017v1.tif"
+  }
+ },
+ {
+  "id": "panama-city-beach-fl",
+  "name": "Panama City Beach",
+  "state": "FL",
+  "coast": "gulf",
+  "lat": 30.1765,
+  "lon": -85.805,
+  "shore_normal": 195,
+  "notes": "pier",
+  "lake": false,
+  "zip": "32413",
+  "nws": {
+   "office": "TAE",
+   "gridX": 27,
+   "gridY": 71,
+   "zone": "FLZ112",
+   "county": "FLC005",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/TAE/27,71"
+  },
+  "tz": "America/Chicago",
+  "coops": {
+   "id": "8729152",
+   "name": "Alligator Bayou",
+   "km": 4.9,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "PCBF1",
+   "km": 8.3,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "destin-fl",
+  "name": "Destin (Henderson Beach)",
+  "state": "FL",
+  "coast": "gulf",
+  "lat": 30.3843,
+  "lon": -86.4497,
+  "shore_normal": 180,
+  "notes": "emerald water",
+  "lake": false,
+  "zip": "32541",
+  "nws": {
+   "office": "MOB",
+   "gridX": 113,
+   "gridY": 57,
+   "zone": "FLZ206",
+   "county": "FLC091",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/MOB/113,57"
+  },
+  "tz": "America/Chicago",
+  "coops": {
+   "id": "8729511",
+   "name": "East Pass (Destin)",
+   "km": 6.2,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "PCBF1",
+   "km": 57.9,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "wrightsville-beach-nc",
+  "name": "Wrightsville Beach",
+  "state": "NC",
+  "coast": "atlantic",
+  "lat": 34.21,
+  "lon": -77.796,
+  "shore_normal": 120,
+  "notes": "surf, pier",
+  "lake": false,
+  "zip": "28480",
+  "nws": {
+   "office": "ILM",
+   "gridX": 95,
+   "gridY": 75,
+   "zone": "NCZ108",
+   "county": "NCC129",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/ILM/95,75"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8658163",
+   "name": "Wrightsville Beach",
+   "km": 0.9,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "JMPN7",
+   "km": 1.0,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/southeast/ncei19_n34x25_w078x00_2019v1.tif",
+   "res": "1/9 arc-second",
+   "north": 34.25,
+   "west": -78.0,
+   "size_deg": 0.25,
+   "year": 2019,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/southeast/ncei19_n34x25_w078x00_2019v1.tif"
+  }
+ },
+ {
+  "id": "hilton-head-sc",
+  "name": "Hilton Head (Coligny Beach)",
+  "state": "SC",
+  "coast": "atlantic",
+  "lat": 32.141,
+  "lon": -80.7505,
+  "shore_normal": 135,
+  "notes": "family",
+  "lake": false,
+  "zip": "29928",
+  "nws": {
+   "office": "CHS",
+   "gridX": 60,
+   "gridY": 45,
+   "zone": "SCZ148",
+   "county": "SCC013",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/CHS/60,45"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8669464",
+   "name": "Calibogue Cay, Broad Creek, Hilton Head Island",
+   "km": 4.4,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "FPKG1",
+   "km": 18.6,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/southeast/ncei19_n32x25_w081x00_2019v1.tif",
+   "res": "1/9 arc-second",
+   "north": 32.25,
+   "west": -81.0,
+   "size_deg": 0.25,
+   "year": 2019,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/southeast/ncei19_n32x25_w081x00_2019v1.tif"
+  }
+ },
+ {
+  "id": "atlantic-city-nj",
+  "name": "Atlantic City",
+  "state": "NJ",
+  "coast": "atlantic",
+  "lat": 39.356,
+  "lon": -74.43,
+  "shore_normal": 140,
+  "notes": "boardwalk",
+  "lake": false,
+  "zip": "08401",
+  "nws": {
+   "office": "PHI",
+   "gridX": 79,
+   "gridY": 56,
+   "zone": "NJZ025",
+   "county": "NJC001",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/PHI/79,56"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8534720",
+   "name": "Atlantic City (Ocean)",
+   "km": 1.0,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "ACYN4",
+   "km": 1.0,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n39x50_w074x50_2018v2.tif",
+   "res": "1/9 arc-second",
+   "north": 39.5,
+   "west": -74.5,
+   "size_deg": 0.25,
+   "year": 2018,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n39x50_w074x50_2018v2.tif"
+  }
+ },
+ {
+  "id": "asbury-park-nj",
+  "name": "Asbury Park",
+  "state": "NJ",
+  "coast": "atlantic",
+  "lat": 40.22,
+  "lon": -73.9985,
+  "shore_normal": 90,
+  "notes": "boardwalk",
+  "lake": false,
+  "zip": "07712",
+  "nws": {
+   "office": "PHI",
+   "gridX": 88,
+   "gridY": 97,
+   "zone": "NJZ014",
+   "county": "NJC025",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/PHI/88,97"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8532337",
+   "name": "Belmar, Atlantic Ocean",
+   "km": 4.0,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "SDHN4",
+   "km": 27.5,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x25_w074x00_2018v2.tif",
+   "res": "1/9 arc-second",
+   "north": 40.25,
+   "west": -74.0,
+   "size_deg": 0.25,
+   "year": 2018,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x25_w074x00_2018v2.tif"
+  }
+ },
+ {
+  "id": "wildwood-nj",
+  "name": "Wildwood",
+  "state": "NJ",
+  "coast": "atlantic",
+  "lat": 38.987,
+  "lon": -74.809,
+  "shore_normal": 120,
+  "notes": "wide beach",
+  "lake": false,
+  "zip": "08260",
+  "nws": {
+   "office": "PHI",
+   "gridX": 68,
+   "gridY": 37,
+   "zone": "NJZ024",
+   "county": "NJC009",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/PHI/68,37"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8535835",
+   "name": "Wildwood Crest, ocean pier",
+   "km": 1.8,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "LWSD1",
+   "km": 35.1,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n39x00_w075x00_2018v2.tif",
+   "res": "1/9 arc-second",
+   "north": 39.0,
+   "west": -75.0,
+   "size_deg": 0.25,
+   "year": 2018,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n39x00_w075x00_2018v2.tif"
+  }
+ },
+ {
+  "id": "cape-may-nj",
+  "name": "Cape May",
+  "state": "NJ",
+  "coast": "atlantic",
+  "lat": 38.93,
+  "lon": -74.9182,
+  "shore_normal": 165,
+  "notes": "Victorian town",
+  "lake": false,
+  "zip": "08204",
+  "nws": {
+   "office": "PHI",
+   "gridX": 65,
+   "gridY": 34,
+   "zone": "NJZ024",
+   "county": "NJC009",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/PHI/65,34"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8535962",
+   "name": "Cape May, Atlantic Ocean",
+   "km": 1.5,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "LWSD1",
+   "km": 23.9,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n39x00_w075x00_2018v2.tif",
+   "res": "1/9 arc-second",
+   "north": 39.0,
+   "west": -75.0,
+   "size_deg": 0.25,
+   "year": 2018,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n39x00_w075x00_2018v2.tif"
+  }
+ },
+ {
+  "id": "rehoboth-beach-de",
+  "name": "Rehoboth Beach",
+  "state": "DE",
+  "coast": "atlantic",
+  "lat": 38.719,
+  "lon": -75.076,
+  "shore_normal": 90,
+  "notes": "boardwalk",
+  "lake": false,
+  "zip": "19971",
+  "nws": {
+   "office": "PHI",
+   "gridX": 61,
+   "gridY": 24,
+   "zone": "DEZ004",
+   "county": "DEC005",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/PHI/61,24"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8557863",
+   "name": "Rehoboth Beach",
+   "km": 0.6,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "LWSD1",
+   "km": 8.0,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/chesapeake_bay/ncei19_n38x75_w075x25_2019v1.tif",
+   "res": "1/9 arc-second",
+   "north": 38.75,
+   "west": -75.25,
+   "size_deg": 0.25,
+   "year": 2019,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/chesapeake_bay/ncei19_n38x75_w075x25_2019v1.tif"
+  }
+ },
+ {
+  "id": "jones-beach-ny",
+  "name": "Jones Beach",
+  "state": "NY",
+  "coast": "atlantic",
+  "lat": 40.596,
+  "lon": -73.51,
+  "shore_normal": 180,
+  "notes": "state park",
+  "lake": false,
+  "zip": "11793",
+  "nws": {
+   "office": "OKX",
+   "gridX": 51,
+   "gridY": 39,
+   "zone": "NYZ179",
+   "county": "NYC059",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/OKX/51,39"
+  },
+  "tz": "America/New_York",
+  "coops": {
+   "id": "8516225",
+   "name": "Deep Creek Meadow",
+   "km": 1.5,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "44065",
+   "km": 30.1,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x75_w073x75_2015v1.tif",
+   "res": "1/9 arc-second",
+   "north": 40.75,
+   "west": -73.75,
+   "size_deg": 0.25,
+   "year": 2015,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_2014_8483/northeast_sandy/ncei19_n40x75_w073x75_2015v1.tif"
+  }
+ },
+ {
+  "id": "port-aransas-tx",
+  "name": "Port Aransas",
+  "state": "TX",
+  "coast": "gulf",
+  "lat": 27.827,
+  "lon": -97.055,
+  "shore_normal": 120,
+  "notes": "Mustang Island",
+  "lake": false,
+  "zip": "78373",
+  "nws": {
+   "office": "CRP",
+   "gridX": 123,
+   "gridY": 35,
+   "zone": "TXZ443",
+   "county": "TXC355",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/CRP/123,35"
+  },
+  "tz": "America/Chicago",
+  "coops": {
+   "id": "8775270",
+   "name": "Port Aransas (H. Caldwell Pier)",
+   "km": 0.5,
+   "water_temp": false,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "RTAT2",
+   "km": 2.2,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "holland-state-park-mi",
+  "name": "Holland State Park",
+  "state": "MI",
+  "coast": "greatlakes",
+  "lat": 42.773,
+  "lon": -86.2125,
+  "shore_normal": 270,
+  "notes": "Big Red lighthouse",
+  "lake": true,
+  "zip": "49424",
+  "nws": {
+   "office": "GRR",
+   "gridX": 23,
+   "gridY": 37,
+   "zone": "MIZ056",
+   "county": "MIC139",
+   "tz": "America/Detroit",
+   "grid_url": "https://api.weather.gov/gridpoints/GRR/23,37"
+  },
+  "tz": "America/Detroit",
+  "coops": null,
+  "ndbc": {
+   "id": "HLNM4",
+   "km": 0.0,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "indiana-dunes-in",
+  "name": "Indiana Dunes State Park",
+  "state": "IN",
+  "coast": "greatlakes",
+  "lat": 41.6615,
+  "lon": -87.064,
+  "shore_normal": 330,
+  "notes": "dunes",
+  "lake": true,
+  "zip": "46304",
+  "nws": {
+   "office": "LOT",
+   "gridX": 95,
+   "gridY": 64,
+   "zone": "INZ002",
+   "county": "INC127",
+   "tz": "America/Chicago",
+   "grid_url": "https://api.weather.gov/gridpoints/LOT/95,64"
+  },
+  "tz": "America/Chicago",
+  "coops": null,
+  "ndbc": {
+   "id": "45026",
+   "km": 51.3,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "edgewater-beach-oh",
+  "name": "Edgewater Beach (Cleveland)",
+  "state": "OH",
+  "coast": "greatlakes",
+  "lat": 41.489,
+  "lon": -81.736,
+  "shore_normal": 340,
+  "notes": "Lake Erie",
+  "lake": true,
+  "zip": "44102",
+  "nws": {
+   "office": "CLE",
+   "gridX": 82,
+   "gridY": 65,
+   "zone": "OHZ011",
+   "county": "OHC035",
+   "tz": "America/New_York",
+   "grid_url": "https://api.weather.gov/gridpoints/CLE/82,65"
+  },
+  "tz": "America/New_York",
+  "coops": null,
+  "ndbc": {
+   "id": "45176",
+   "km": 7.2,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": null
+ },
+ {
+  "id": "kailua-beach-hi",
+  "name": "Kailua Beach",
+  "state": "HI",
+  "coast": "hawaii",
+  "lat": 21.397,
+  "lon": -157.7275,
+  "shore_normal": 70,
+  "notes": "windward Oahu",
+  "lake": false,
+  "zip": "96734",
+  "nws": {
+   "office": "HFO",
+   "gridX": 160,
+   "gridY": 149,
+   "zone": "HIZ009",
+   "county": "HIC003",
+   "tz": "Pacific/Honolulu",
+   "grid_url": "https://api.weather.gov/gridpoints/HFO/160,149"
+  },
+  "tz": "Pacific/Honolulu",
+  "coops": {
+   "id": "1612480",
+   "name": "MOKU O LOE",
+   "km": 7.6,
+   "water_temp": true,
+   "type": "R"
+  },
+  "ndbc": {
+   "id": "51202",
+   "km": 5.2,
+   "waves": true,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_Hawaii_9428/tiles/ncei19_n21x50_w157x75_2021v1.tif",
+   "res": "1/9 arc-second",
+   "north": 21.5,
+   "west": -157.75,
+   "size_deg": 0.25,
+   "year": 2021,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_Hawaii_9428/tiles/ncei19_n21x50_w157x75_2021v1.tif"
+  }
+ },
+ {
+  "id": "kaanapali-beach-hi",
+  "name": "Ka'anapali Beach",
+  "state": "HI",
+  "coast": "hawaii",
+  "lat": 20.924,
+  "lon": -156.6955,
+  "shore_normal": 270,
+  "notes": "Maui",
+  "lake": false,
+  "zip": "96761",
+  "nws": {
+   "office": "HFO",
+   "gridX": 203,
+   "gridY": 127,
+   "zone": "HIZ018",
+   "county": "HIC009",
+   "tz": "Pacific/Honolulu",
+   "grid_url": "https://api.weather.gov/gridpoints/HFO/203,127"
+  },
+  "tz": "Pacific/Honolulu",
+  "coops": {
+   "id": "TPT2799",
+   "name": "Lahaina",
+   "km": 4.7,
+   "water_temp": false,
+   "type": "S"
+  },
+  "ndbc": {
+   "id": "KLIH1",
+   "km": 23.7,
+   "waves": false,
+   "water_temp": true
+  },
+  "cudem": {
+   "key": "dem/NCEI_ninth_Topobathy_Hawaii_9428/tiles/ncei19_n21x00_w156x75_2021v1.tif",
+   "res": "1/9 arc-second",
+   "north": 21.0,
+   "west": -156.75,
+   "size_deg": 0.25,
+   "year": 2021,
+   "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_ninth_Topobathy_Hawaii_9428/tiles/ncei19_n21x00_w156x75_2021v1.tif"
+  }
+ }
+]

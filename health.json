@@ -1,0 +1,14 @@
+{
+ "last_run_utc": "2026-11-14T19:08Z",
+ "runner": "railway",
+ "generated_utc": "2026-11-14T19:06Z",
+ "latest_satellite": "2026-11-13",
+ "steps": {
+  "net": 1,
+  "optics": 1,
+  "forecast": 1,
+  "scene": 1,
+  "verdict": 1,
+  "share": 1
+ }
+}

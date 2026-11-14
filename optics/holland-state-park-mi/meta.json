@@ -1,0 +1,136 @@
+{
+ "id": "holland-state-park-mi",
+ "generated_utc": "2026-11-14T09:17Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -9598902.596632432,
+   5275712.715084617,
+   -9595360.603397764,
+   5279254.708319285
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -86.22841,
+  42.76132,
+  -86.19659,
+  42.78468
+ ],
+ "scenes": [
+  {
+   "id": "20261110T164521_20261110T164519_T16TEN",
+   "t": "2026-11-10",
+   "clear": 1
+  },
+  {
+   "id": "20261109T163651_20261109T163951_T16TEN",
+   "t": "2026-11-09",
+   "clear": 0.0026661369244280917
+  },
+  {
+   "id": "20261028T163401_20261028T163831_T16TEN",
+   "t": "2026-10-28",
+   "clear": 1
+  },
+  {
+   "id": "20261026T164359_20261026T164953_T16TEN",
+   "t": "2026-10-26",
+   "clear": 0.16736230186943277
+  },
+  {
+   "id": "20261023T163339_20261023T163826_T16TEN",
+   "t": "2026-10-23",
+   "clear": 1
+  },
+  {
+   "id": "20261021T164331_20261021T164425_T16TEN",
+   "t": "2026-10-21",
+   "clear": 1
+  },
+  {
+   "id": "20261020T163701_20261020T163657_T16TEN",
+   "t": "2026-10-20",
+   "clear": 0.9994667726151144
+  },
+  {
+   "id": "20261018T163301_20261018T163311_T16TEN",
+   "t": "2026-10-18",
+   "clear": 1
+  },
+  {
+   "id": "20261013T164701_20261013T164701_T16TEN",
+   "t": "2026-10-13",
+   "clear": 1
+  },
+  {
+   "id": "20261013T163229_20261013T163225_T16TEN",
+   "t": "2026-10-13",
+   "clear": 1
+  }
+ ],
+ "scene": {
+  "date": "2026-11-10",
+  "clear_frac": 1,
+  "id": "20261110T164521_20261110T164519_T16TEN"
+ },
+ "water": {
+  "water_px": 79743,
+  "turbidity_spm": 0.2,
+  "turbidity_class": "clear",
+  "turbidity_p90": 3.3,
+  "ndti": -0.921,
+  "algae_ndci": -0.299,
+  "algae_class": "none"
+ },
+ "cudem": null,
+ "osm": {
+  "structures": 233,
+  "kinds": [
+   "breakwater",
+   "pier"
+  ],
+  "beach_surface": "sand"
+ },
+ "persist_dates": [
+  "2026-10-11",
+  "2026-10-13",
+  "2026-10-18",
+  "2026-10-20",
+  "2026-10-21",
+  "2026-10-23",
+  "2026-10-28",
+  "2026-11-10"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 55.0,
+  "m0": -48.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 79603,
+  "rip_channels": 4,
+  "sandbars": 8,
+  "band_segments": 53,
+  "band_rip": 14,
+  "band_bar": 24,
+  "composite_scenes_median": 18,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.715,
+   "split_half_iou_shifted": 0.523,
+   "dates_used": 8,
+   "chan_px_composite": 3209,
+   "chan_px_persistent": 2825,
+   "bar_px_composite": 3206,
+   "bar_px_persistent": 2482,
+   "structure_px_masked": 2555
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}

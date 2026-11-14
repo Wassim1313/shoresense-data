@@ -1,0 +1,132 @@
+{
+ "id": "south-padre-island-tx",
+ "generated_utc": "2026-11-14T09:06Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -10817806.088522337,
+   3011511.483112447,
+   -10814910.557334516,
+   3014407.014300267
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -97.17801,
+  26.10032,
+  -97.15199,
+  26.12368
+ ],
+ "scenes": [
+  {
+   "id": "20261106T170511_20261106T171422_T14RPQ",
+   "t": "2026-11-06",
+   "clear": 0
+  },
+  {
+   "id": "20261101T170449_20261101T171250_T14RPP",
+   "t": "2026-11-01",
+   "clear": 0.9721965326404485
+  },
+  {
+   "id": "20261027T170411_20261027T171352_T14RPQ",
+   "t": "2026-10-27",
+   "clear": 0
+  },
+  {
+   "id": "20261019T170711_20261019T170738_T14RPQ",
+   "t": "2026-10-19",
+   "clear": 0.001069525445268608
+  },
+  {
+   "id": "20261017T170311_20261017T170856_T14RPP",
+   "t": "2026-10-17",
+   "clear": 0.891218776672601
+  },
+  {
+   "id": "20261017T170311_20261017T170856_T14RPQ",
+   "t": "2026-10-17",
+   "clear": 0.16621473973832274
+  },
+  {
+   "id": "20261012T170239_20261012T170931_T14RPP",
+   "t": "2026-10-12",
+   "clear": 0.9989304745547314
+  },
+  {
+   "id": "20261012T170239_20261012T170931_T14RPQ",
+   "t": "2026-10-12",
+   "clear": 0.18178996617363635
+  },
+  {
+   "id": "20261002T170129_20261002T170555_T14RPQ",
+   "t": "2026-10-02",
+   "clear": 0
+  },
+  {
+   "id": "20260929T170711_20260929T171230_T14RPP",
+   "t": "2026-09-29",
+   "clear": 0.34826684450148576
+  }
+ ],
+ "scene": {
+  "date": "2026-11-01",
+  "clear_frac": 0.97,
+  "id": "20261101T170449_20261101T171250_T14RPP"
+ },
+ "water": {
+  "water_px": 58638,
+  "turbidity_spm": 6.3,
+  "turbidity_class": "slightly murky",
+  "turbidity_p90": 14.3,
+  "ndti": -0.283,
+  "algae_ndci": 0.007,
+  "algae_class": "some"
+ },
+ "cudem": null,
+ "osm": {
+  "structures": 2,
+  "kinds": [
+   "pier"
+  ],
+  "beach_surface": null
+ },
+ "persist_dates": [
+  "2026-09-22",
+  "2026-09-27",
+  "2026-10-12",
+  "2026-10-17",
+  "2026-11-01"
+ ],
+ "bed": {
+  "calibration": "approximate",
+  "m1": 55.0,
+  "m0": -48.0,
+  "cal_points": 0,
+  "cal_rmse_m": null,
+  "water_px": 58341,
+  "rip_channels": 0,
+  "sandbars": 0,
+  "band_segments": 58,
+  "band_rip": 0,
+  "band_bar": 0,
+  "composite_scenes_median": 7,
+  "persist_dates": 5,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.0,
+   "split_half_iou_shifted": 0.0,
+   "dates_used": 5,
+   "chan_px_composite": 1083,
+   "chan_px_persistent": 0,
+   "bar_px_composite": 1677,
+   "bar_px_persistent": 7,
+   "structure_px_masked": 109
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine"
+ ]
+}
