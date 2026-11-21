@@ -1,0 +1,144 @@
+{
+ "id": "santa-cruz-main-beach-ca",
+ "generated_utc": "2026-11-21T09:09Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -13584664.261639515,
+   4432254.084760555,
+   -13581410.313078592,
+   4435508.033321478
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -122.03312,
+  36.95082,
+  -122.00388,
+  36.97418
+ ],
+ "scenes": [
+  {
+   "id": "20261119T185701_20261119T190034_T10SEF",
+   "t": "2026-11-19",
+   "clear": 0
+  },
+  {
+   "id": "20261114T185639_20261114T190152_T10SEF",
+   "t": "2026-11-14",
+   "clear": 0.9665862676867288
+  },
+  {
+   "id": "20261114T185639_20261114T190152_T10SEG",
+   "t": "2026-11-14",
+   "clear": 0.8476292769535495
+  },
+  {
+   "id": "20261111T185821_20261111T185817_T10SEF",
+   "t": "2026-11-11",
+   "clear": 0.9961182367498713
+  },
+  {
+   "id": "20261111T185821_20261111T185817_T10SEG",
+   "t": "2026-11-11",
+   "clear": 0.8686021046107986
+  },
+  {
+   "id": "20261109T185611_20261109T185613_T10SEF",
+   "t": "2026-11-09",
+   "clear": 0.03790895653011408
+  },
+  {
+   "id": "20261104T185549_20261104T190124_T10SEF",
+   "t": "2026-11-04",
+   "clear": 0.8358876759251118
+  },
+  {
+   "id": "20261104T185549_20261104T190124_T10SEG",
+   "t": "2026-11-04",
+   "clear": 0.709257188799418
+  },
+  {
+   "id": "20261030T185521_20261030T190033_T10SEF",
+   "t": "2026-10-30",
+   "clear": 0.009076291094556748
+  },
+  {
+   "id": "20261030T185521_20261030T190033_T10SEG",
+   "t": "2026-10-30",
+   "clear": 6.699914994828511e-05
+  }
+ ],
+ "scene": {
+  "date": "2026-11-14",
+  "clear_frac": 0.97,
+  "id": "20261114T185639_20261114T190152_T10SEF"
+ },
+ "water": {
+  "water_px": 37137,
+  "turbidity_spm": 4.4,
+  "turbidity_class": "clear",
+  "turbidity_p90": 13.8,
+  "ndti": -0.434,
+  "algae_ndci": -0.177,
+  "algae_class": "none"
+ },
+ "cudem": {
+  "res": "1/9 arc-second",
+  "year": 2023,
+  "coverage": 1.0
+ },
+ "osm": {
+  "structures": 1,
+  "kinds": [
+   "pier"
+  ],
+  "beach_surface": null
+ },
+ "persist_dates": [
+  "2026-09-25",
+  "2026-09-30",
+  "2026-10-05",
+  "2026-10-10",
+  "2026-10-15",
+  "2026-11-04",
+  "2026-11-11",
+  "2026-11-14"
+ ],
+ "bed": {
+  "calibration": "cudem",
+  "m1": 55.308,
+  "m0": -47.691,
+  "cal_points": 23928,
+  "cal_rmse_m": 1.91,
+  "water_px": 39478,
+  "rip_channels": 22,
+  "sandbars": 20,
+  "band_segments": 65,
+  "band_rip": 7,
+  "band_bar": 7,
+  "composite_scenes_median": 19,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.438,
+   "split_half_iou_shifted": 0.25,
+   "cudem_corr": 0.454,
+   "cudem_px": 16538,
+   "cudem_deeper_at_channels": 0.936,
+   "cudem_deeper_baseline": 0.498,
+   "dates_used": 8,
+   "chan_px_composite": 4968,
+   "chan_px_persistent": 3143,
+   "bar_px_composite": 5464,
+   "bar_px_persistent": 3455,
+   "structure_px_masked": 53
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine",
+  "NOAA NCEI CUDEM"
+ ]
+}

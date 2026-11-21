@@ -1,0 +1,12 @@
+{
+ "schema": 1,
+ "generated_utc": "2026-11-21T19:04Z",
+ "published_utc": "2026-11-21T19:06Z",
+ "beaches": 51,
+ "with_satellite": 51,
+ "latest_satellite": "2026-11-20",
+ "bytes": 119745118,
+ "min_app": "0.1",
+ "runner": "railway",
+ "note": "ShoreSense daily products: summary.json (list/map), beach/<id>.json (page), optics/<id>/ (satellite), scene3d/<id>.glb"
+}
