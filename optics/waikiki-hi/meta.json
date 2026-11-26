@@ -1,0 +1,146 @@
+{
+ "id": "waikiki-hi",
+ "generated_utc": "2026-11-26T09:09Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -17570616.35776894,
+   2423424.146981226,
+   -17567826.18909103,
+   2426214.315659139
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -157.83953,
+  21.26432,
+  -157.81447,
+  21.28768
+ ],
+ "scenes": [
+  {
+   "id": "20261125T210921_20261125T210921_T04QFJ",
+   "t": "2026-11-25",
+   "clear": 1
+  },
+  {
+   "id": "20261123T211919_20261123T211916_T04QFJ",
+   "t": "2026-11-23",
+   "clear": 1
+  },
+  {
+   "id": "20261120T210929_20261120T210923_T04QFJ",
+   "t": "2026-11-20",
+   "clear": 0.5463295084170567
+  },
+  {
+   "id": "20261115T210921_20261115T210920_T04QFJ",
+   "t": "2026-11-15",
+   "clear": 0.7974362420617582
+  },
+  {
+   "id": "20261113T211919_20261113T211914_T04QFJ",
+   "t": "2026-11-13",
+   "clear": 0.2603260139108233
+  },
+  {
+   "id": "20261110T210919_20261110T210921_T04QFJ",
+   "t": "2026-11-10",
+   "clear": 0.8252116864352673
+  },
+  {
+   "id": "20261108T211911_20261108T211910_T04QFJ",
+   "t": "2026-11-08",
+   "clear": 0.3238928463425293
+  },
+  {
+   "id": "20261105T210921_20261105T210917_T04QFJ",
+   "t": "2026-11-05",
+   "clear": 0.7392497731931048
+  },
+  {
+   "id": "20261103T211919_20261103T211915_T04QFJ",
+   "t": "2026-11-03",
+   "clear": 0.9532672793252913
+  },
+  {
+   "id": "20261031T210919_20261031T210922_T04QFJ",
+   "t": "2026-10-31",
+   "clear": 0.9925027720842711
+  }
+ ],
+ "scene": {
+  "date": "2026-11-25",
+  "clear_frac": 1,
+  "id": "20261125T210921_20261125T210921_T04QFJ"
+ },
+ "water": {
+  "water_px": 30540,
+  "turbidity_spm": 2.1,
+  "turbidity_class": "clear",
+  "turbidity_p90": 13.5,
+  "ndti": -0.728,
+  "algae_ndci": -0.113,
+  "algae_class": "none"
+ },
+ "cudem": {
+  "res": "1/9 arc-second",
+  "year": 2021,
+  "coverage": 1.0
+ },
+ "osm": {
+  "structures": 12,
+  "kinds": [
+   "breakwater",
+   "groyne",
+   "pier"
+  ],
+  "beach_surface": "sand"
+ },
+ "persist_dates": [
+  "2026-10-21",
+  "2026-10-31",
+  "2026-11-03",
+  "2026-11-05",
+  "2026-11-10",
+  "2026-11-15",
+  "2026-11-23",
+  "2026-11-25"
+ ],
+ "bed": {
+  "calibration": "cudem",
+  "m1": 60.188,
+  "m0": -57.165,
+  "cal_points": 24285,
+  "cal_rmse_m": 0.61,
+  "water_px": 30127,
+  "rip_channels": 11,
+  "sandbars": 10,
+  "band_segments": 42,
+  "band_rip": 15,
+  "band_bar": 16,
+  "composite_scenes_median": 22,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.722,
+   "split_half_iou_shifted": 0.259,
+   "cudem_corr": 0.916,
+   "cudem_px": 8561,
+   "cudem_deeper_at_channels": 0.969,
+   "cudem_deeper_baseline": 0.504,
+   "dates_used": 8,
+   "chan_px_composite": 2615,
+   "chan_px_persistent": 2386,
+   "bar_px_composite": 2811,
+   "bar_px_persistent": 2667,
+   "structure_px_masked": 654
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine",
+  "NOAA NCEI CUDEM"
+ ]
+}

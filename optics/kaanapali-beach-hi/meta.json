@@ -1,0 +1,142 @@
+{
+ "id": "kaanapali-beach-hi",
+ "generated_utc": "2026-11-26T09:21Z",
+ "ok": true,
+ "grid": {
+  "crs": "EPSG:3857",
+  "rect_3857": [
+   -17444655.050651476,
+   2381426.9226188106,
+   -17441871.488543324,
+   2384210.4847269612
+  ],
+  "scale_m": 10
+ },
+ "bbox": [
+  -156.708,
+  20.91232,
+  -156.683,
+  20.93568
+ ],
+ "scenes": [
+  {
+   "id": "20261125T210921_20261125T210921_T04QGJ",
+   "t": "2026-11-25",
+   "clear": 0.9909059823322222
+  },
+  {
+   "id": "20261120T210929_20261120T210923_T04QGJ",
+   "t": "2026-11-20",
+   "clear": 0.9957204622739869
+  },
+  {
+   "id": "20261115T210921_20261115T210920_T04QGJ",
+   "t": "2026-11-15",
+   "clear": 1
+  },
+  {
+   "id": "20261105T210921_20261105T210917_T04QGJ",
+   "t": "2026-11-05",
+   "clear": 0.6896579936100635
+  },
+  {
+   "id": "20261031T210919_20261031T210922_T04QGJ",
+   "t": "2026-10-31",
+   "clear": 0.9782750526026512
+  },
+  {
+   "id": "20261026T210921_20261026T210920_T04QGJ",
+   "t": "2026-10-26",
+   "clear": 0.40840635469396114
+  },
+  {
+   "id": "20261021T210919_20261021T210921_T04QGJ",
+   "t": "2026-10-21",
+   "clear": 1
+  },
+  {
+   "id": "20261016T210921_20261016T210922_T04QGJ",
+   "t": "2026-10-16",
+   "clear": 0.9994650577842483
+  },
+  {
+   "id": "20261011T210919_20261011T210920_T04QGJ",
+   "t": "2026-10-11",
+   "clear": 1
+  },
+  {
+   "id": "20261006T210921_20261006T210923_T04QGJ",
+   "t": "2026-10-06",
+   "clear": 1
+  }
+ ],
+ "scene": {
+  "date": "2026-11-25",
+  "clear_frac": 0.99,
+  "id": "20261125T210921_20261125T210921_T04QGJ"
+ },
+ "water": {
+  "water_px": 40280,
+  "turbidity_spm": 0.8,
+  "turbidity_class": "clear",
+  "turbidity_p90": 1.9,
+  "ndti": -0.496,
+  "algae_ndci": 0.0,
+  "algae_class": "some"
+ },
+ "cudem": {
+  "res": "1/9 arc-second",
+  "year": 2021,
+  "coverage": 1.0
+ },
+ "osm": {
+  "structures": 0,
+  "kinds": [],
+  "beach_surface": null
+ },
+ "persist_dates": [
+  "2026-10-11",
+  "2026-10-16",
+  "2026-10-21",
+  "2026-10-31",
+  "2026-11-05",
+  "2026-11-15",
+  "2026-11-20",
+  "2026-11-25"
+ ],
+ "bed": {
+  "calibration": "cudem",
+  "m1": 41.046,
+  "m0": -37.174,
+  "cal_points": 6746,
+  "cal_rmse_m": 0.92,
+  "water_px": 40349,
+  "rip_channels": 2,
+  "sandbars": 4,
+  "band_segments": 43,
+  "band_rip": 18,
+  "band_bar": 16,
+  "composite_scenes_median": 11,
+  "persist_dates": 8,
+  "persist_min": 3,
+  "validation": {
+   "split_half_iou": 0.859,
+   "split_half_iou_shifted": 0.358,
+   "cudem_corr": 0.899,
+   "cudem_px": 3970,
+   "cudem_deeper_at_channels": 0.956,
+   "cudem_deeper_baseline": 0.49,
+   "dates_used": 8,
+   "chan_px_composite": 1328,
+   "chan_px_persistent": 1276,
+   "bar_px_composite": 1430,
+   "bar_px_persistent": 1389,
+   "structure_px_masked": 0
+  },
+  "osm_ok": true
+ },
+ "sources": [
+  "Copernicus Sentinel-2 L2A via Google Earth Engine",
+  "NOAA NCEI CUDEM"
+ ]
+}
